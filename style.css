@@ -47,6 +47,14 @@ nav {
     opacity: 75%;
 }
 
+.LogoName a {
+    font-size: 58px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 75%;
+    color: white;
+    text-decoration: none;
+}
+
 .LogoName span {
     color: #ff004f;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -319,7 +327,7 @@ nav ul li a:hover::after {
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    transition: background 0.5s;
+    transition: background 0.35s;
 }
 
 .btn:hover {
@@ -357,7 +365,7 @@ nav ul li a:hover::after {
     margin-right: 15px;
     color: #ababab;
     display: inline-block;
-    transition: transform 0.5s;
+    transition: transform 0.35s;
 }
 
 .social-icons a:hover {
@@ -402,6 +410,11 @@ form btn2 {
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
+}
+
+.copyright a {
+    color: #f80000;
+    text-decoration: none;
 }
 
 .copyright i {
@@ -456,7 +469,7 @@ nav .fa-solid {
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
-        transition: right 0.5s;
+        transition: right 0.35s;
     }
 
     nav ul li {
